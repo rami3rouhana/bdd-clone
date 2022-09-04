@@ -1,4 +1,4 @@
-body{
+body {
     font-family: TheMixSemiBold;
     font-weight: 400;
     font-size: 1rem;
@@ -34,6 +34,7 @@ body{
     flex-wrap: wrap;
     justify-content: flex-end;
 }
+
 .menu-items button {
     background-color: transparent;
     color: white;
@@ -42,6 +43,10 @@ body{
     font-size: .85rem;
     line-height: 1.2rem;
     letter-spacing: 1.5px;
+}
+
+.menu-items button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 #menue-items-join-btn {
