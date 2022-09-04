@@ -252,3 +252,41 @@ body {
     font-weight: 900;
     margin: 20px 0px 0px 0px;
 }
+
+/* footer section 6 */
+
+.footer{
+    background-color: #212121;
+    padding: 0px 70px 0px 70px;
+}
+
+.footer-rows{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-rows .row {
+    color: white;
+    width: 100%;
+}
+
+.email input{
+    background-color: #212121;
+    border-color: #212121;
+}
+
+.footer-rows .row ul {
+    list-style: none;
+}
+
+.footer-rows .row .images img {
+    width: 100px;
+}
+
+.footer-column{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
