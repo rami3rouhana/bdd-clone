@@ -190,3 +190,65 @@ body {
 .join-body .col-part .col ul {
     padding: 0px;
 }
+
+/* mobile app section 4 */
+
+.mobile-app {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.mobile-app span{
+    font-weight: bold;
+    margin: 20px 5px 15px;
+}
+
+.mobile-app .mobile-app-images{
+    font-weight: bold;
+    margin: 0px 5px 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mobile-app .mobile-app-images img{
+    width: 30%;
+    height: auto;
+}
+
+/* parallax section 5 */
+
+.parallax h3{
+    text-align: center;
+    margin: 20px 0px 40px 0px;
+}
+
+.parallax{
+    display: flex;
+    flex-direction: column;
+}
+
+.parallax .parllax-cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.parallax .parllax-cards .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.parallax .parllax-cards .card h6{
+    font-size: .95rem;
+    padding: 0px 90px 0px 90px;
+    text-align: center;
+}
+
+.parllax-cards .card span{
+    font-size: 5vh;
+    font-weight: 900;
+    margin: 20px 0px 0px 0px;
+}
