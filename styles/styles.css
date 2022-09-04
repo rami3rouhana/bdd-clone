@@ -53,3 +53,18 @@ body {
     display: flex;
     justify-content: flex-end;
 }
+
+.blue-btn button {
+    background-color: #0078BE;
+    border-radius: 30px;
+    line-height: 1.25;
+    padding: 0.8rem 1.4rem;
+    font-size: .9rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    box-shadow: 0 3px 12px 0 rgb(0 0 0 / 0%);
+}
