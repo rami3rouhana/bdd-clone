@@ -19,3 +19,8 @@
     flex-wrap: wrap;
     justify-content: flex-end;
 }
+
+#menue-items-join-btn{
+    display: flex;
+    justify-content: flex-end;
+}
