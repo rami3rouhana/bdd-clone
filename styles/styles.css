@@ -180,9 +180,11 @@ body {
     width: 25%;
 }
 
-.join-body .col-part .col {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
+.join-body .col-part .col h5 {
+    font-weight: 900;
+    color: black;
 }
 
+.join-body .col-part .col ul {
+    padding: 0px;
+}
