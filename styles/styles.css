@@ -6,6 +6,11 @@
     flex-wrap: nowrap;
 }
 
+.navbar .logo img {
+    width: 82px;
+    height: 50px;
+}
+
 .items {
     display: flex;
     flex-direction: row;
@@ -20,7 +25,7 @@
     justify-content: flex-end;
 }
 
-#menue-items-join-btn{
+#menue-items-join-btn {
     display: flex;
     justify-content: flex-end;
 }
