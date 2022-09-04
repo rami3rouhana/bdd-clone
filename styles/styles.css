@@ -176,6 +176,8 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 100%;
     margin: 0px 50px;
     width: 25%;
 }
