@@ -110,7 +110,27 @@ body {
 
 /* foundation section 2 */
 
-.foundation-div .title h2{
+.foundation-div .title h2 {
     color: black;
+    text-align: center;
+}
+
+.foundation-div .cards {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.foundation-div .cards .card-section {
+    width: 25%;
+    margin: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.foundation-div .cards .card-section p {
     text-align: center;
 }
