@@ -68,6 +68,8 @@ body {
     justify-content: flex-end;
 }
 
+/* main btn section */
+
 .blue-btn button {
     background-color: #0078BE;
     border-radius: 30px;
@@ -110,7 +112,9 @@ body {
 
 /* foundation section 2 */
 
-.foundation-div .title h2 {
+/* divs title section */
+
+.div-title h2 {
     color: black;
     text-align: center;
     margin: 50px;
@@ -132,6 +136,16 @@ body {
     align-items: center;
     flex-wrap: nowrap;
 }
+
 .foundation-div .cards .card-section p {
     text-align: center;
+}
+
+.foundation-div .cards .card-section img {
+    height: 80px;
+}
+
+.foundation-div .cards .card-section h4 {
+    color: black;
+    font-weight: 900;
 }
